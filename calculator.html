@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
+  <body>
+    <h2>SEAM LESS CALCULATIONS</h2>
+    <table border="4.5px" align="center">
+      <tr>
+       <td colspan="3.5"><input type="text" id="functions"></td>
+       <td><input type="button" value="Clear" onclick="clr()"></td>
+      </tr>
+      <tr>
+  <td><input type="button" value="-" onclick="show('-')"></td>
+  <td><input type="button" value="1" onclick="show('1')"></td>
+  <td><input type="button"value="2" onclick="show('2')"></td>
+  <td><input type="button" value="3" onclick="show('3')"></td>
+</tr>
+<tr>
+  <td><input type="button" value="+" onclick="show('+')"></td>
+  <td><input type="button" value="4" onclick="show('4')"></td>
+  <td><input type="button" value="5" onclick="show('5')"></td>
+  <td><input type="button" value="6" onclick="show('6')"></td>
+</tr>
+<tr>
+  <td><input type="button" value="*" onclick="show('*')"></td>
+<td><input type="button" value="7" onclick="show('7')"></td>
+<td><input type="button" value="8" onclick="show('8')"></td>
+<td><input type="button" value="9" onclick="show('9')"></td>
+</tr>
+<tr>
+  <td><input type="button" value="/" onclick="show('/')"></td>
+  <td><input type="button" value="=" onclick="solve()"></td>
+  <td><input type="button" value="0" onclick="show('0')"></td>
+  <td><input type="button" value="." onclick="show('.')"></td>
+</tr>
+</body>
+</html>

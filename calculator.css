@@ -1,0 +1,22 @@
+input[type="button"]
+{
+border-radius:20%;
+background-color:#b7e6df;
+color: black;
+border-color:#af1441 ;
+width:100%;
+}
+
+h2{
+
+  font-size: 15px;
+  text-align: center;
+  color: #fc7145
+
+}
+
+input[type="text"]{
+  width: 150px;
+background-color:pink;
+
+}
